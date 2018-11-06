@@ -1,0 +1,29 @@
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 26pt;
+}
+
+div#container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #d3d3d3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div#inner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div#inner-container p {
+  flex: 1;
+  display: block;
+  text-align: center;
+}
+
